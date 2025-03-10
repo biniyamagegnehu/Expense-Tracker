@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(19,19,50);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+.inputs {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs input, .inputs label ,button{
+    padding: 5px;
+    margin: 5px;
+}
